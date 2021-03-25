@@ -13,7 +13,7 @@ from Crypto.Signature import PKCS1_v1_5
 from Crypto.Hash import SHA
 
 
-class Blockchain():
+class Blockchain:
     def __init__(self):
         self.chain = []
         self.current_transactions = []
